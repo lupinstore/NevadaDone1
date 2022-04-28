@@ -1,0 +1,16 @@
+.needs_based_nav a{display:block;height:180px;position:relative;border:3px solid #f2f2f2;-webkit-border-radius:4px;border-radius:4px;background-clip:padding-box;padding:20px}
+@media only screen and (max-width:1240px){.needs_based_nav a{height:175px}
+}
+@media only screen and (max-width:1000px){.needs_based_nav a{height:155px;margin-bottom:20px}
+}
+.needs_based_nav span{position:absolute;left:20px;right:20px;bottom:15px;font-size:15px;font-family:"Montserrat",sans-serif;color:#474747}
+@media only screen and (max-width:1240px){.needs_based_nav span{font-size:14px}
+}
+@media only screen and (max-width:808px){.needs_based_nav span{left:10px;right:10px;bottom:10px;font-size:13px}
+}
+.needs_based_nav i{font-size:84px;color:#474747}
+.needs_based_nav span{left:10px;right:10px}
+.product-details{padding:0;border:0}
+.product-details .account-details{padding:25px;border:1px solid #e0e1e1;border-radius:25px}
+.product-details h3{color:#c99212;text-transform:uppercase}
+.product-details ul{list-style-type:initial}

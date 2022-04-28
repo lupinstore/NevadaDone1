@@ -1,0 +1,380 @@
+@IMPORT url("common_style.css");
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+html>body tr.show {
+	display: table-row;
+}
+
+html>body tr.show td {
+	display: table-cell;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	background-image: none;
+	height: 100%;
+}
+
+table {
+	color: Black;
+	font-size: 15px;
+	width: 100%;
+	border: 0px;
+	padding: 0px;
+	table-layout: fixed;
+}
+
+img {
+	border: 0px;
+	margin: 0px;
+}
+
+.tableBody {
+	
+}
+
+.text {
+	font-size: 11px
+}
+
+.textRed {
+	font-size: 12px;
+	color: red
+}
+
+.large {
+	font-size: 20px;
+}
+
+.small {
+	font-size: 9px
+}
+
+.readOnly {
+	font-size: 11px;
+	font-weight: bold;
+	color: #3F3F3F
+}
+
+.textb {
+	font-size: 12px;
+	font-weight: bold
+}
+
+.textbb {
+	font-size: 14px;
+	font-weight: bold
+}
+
+.copySmall {
+	font-size: 11px;
+	line-height: 12px;
+}
+
+.title {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000099;
+	font-style: italic
+}
+
+.hrTd {
+	font-size: 0px;
+}
+
+.hr {
+	border-bottom: 1px solid #CCCCCC;
+	margin: 5px 0px 5px 0px;
+	font-size: 0px;
+	height: 1px;
+}
+
+.actionLink {
+	text-align: right;
+	font-size: 11px;
+	padding-top: 5px;
+}
+
+.sectionTitleImageTd {
+	text-align: left;
+}
+
+.sectionTitleTd {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #3B4F77;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.sectionTitleInfoTd, .sectionTitleInfoTextTd {
+	background-color: #E2E5CA;
+	padding: 7px;
+	border-top: 7px white solid;
+	border-bottom: 7px white solid;
+}
+
+.sectionTitleInfoTd {
+	
+}
+
+.sectionMessageTd {
+	font-weight: bold;
+	text-align: left;
+	padding: 0px 0px 10px 0px;
+}
+
+.sectionMessageIconTd {
+	text-align: left;
+	vertical-align: top;
+	width: 22px;
+}
+
+.formFieldTable {
+	width: 200px;
+}
+
+.tableOutline {
+	margin: 0px 5px 10px 5px;
+	border-collapse: collapse;
+}
+
+.tableOutline td {
+	border: solid 2px #CCCCCC;
+	padding: 5px;
+}
+
+.tableOutlineTitle {
+	padding: 15px 0px 2px 0px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.tableOutlineHeaderTd {
+	font-weight: bold;
+	vertical-align: top;
+	text-align: right;
+}
+
+.topBarTd {
+	text-align: center;
+}
+
+.progressBar {
+	margin-left: 22% \9;
+	margin-top: 2px;
+	padding: 0px 0px 8px 0px;
+	font-size: 0px;
+}
+
+.progressBar7, .progressBar5 {
+	border: 1.2px solid #2F6DAB;
+	font-size: 0px;
+	height: 15px;
+}
+
+.progressBar1of7, .progressBar2of7, .progressBar3of7, .progressBar4of7,
+	.progressBar5of7, .progressBar6of7, .progressBar7of7, .progressBar7of7,
+	.progressBar1of5, .progressBar2of5, .progressBar3of5, .progressBar4of5,
+	.progressBar5of5, .progressBarComplete {
+	background-color: #2F6DAB;
+	text-align: left;
+	height: 15px;
+}
+
+.progressBar1of7 {
+	width: 14%;
+}
+
+.progressBar2of7 {
+	width: 33%;
+}
+
+.progressBar3of7 {
+	width: 45%;
+}
+
+.progressBar4of7 {
+	width: 60%;
+}
+
+.progressBar5of7 {
+	width: 75%;
+}
+
+.progressBar6of7 {
+	width: 100%;
+}
+
+.progressBar7of7 {
+	width: 528px;
+}
+
+.progressBar1of5 {
+	width: 11%;
+}
+
+.progressBar2of5 {
+	width: 30%;
+}
+
+.progressBar3of5 {
+	width: 50%;
+}
+
+.progressBar4of5 {
+	width: 70%;
+}
+
+.progressBar5of5 {
+	width: 90%;
+}
+
+.progressBarComplete {
+	width: 100%;
+}
+
+/* BUTTONS */
+#buttonContainer {
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 25px;
+}
+
+.cancelButton {
+	background-image: url( "../images/nsb_button_cancel.png" );
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 100px;
+}
+
+.submitButton {
+	background-image: url( "../images/nsb_button_submit.png" );
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 100px;
+}
+
+.continueButton {
+	background-image: url( "../images/nsb_button_continue.png"  );
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 100px;
+}
+
+.printButton {
+	background-image: url( "../images/nsb_button_print.png" );
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 100px;
+}
+
+.backButton {
+	background-image: url( "../images/nsb_button_back.png"  );
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 100px;
+}
+
+.closeButton {
+	background-image: url( "../images/nsb_button_close.png"  );
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 100px;
+}
+
+/* include-top.jsp */
+.logoLeftTd {
+	text-align: left;
+	font-size: 0px;
+}
+
+.logoRightTd {
+	font-size: 0px;
+}
+
+.contentTable {
+	margin: 0px;
+	padding: 0px;
+	width: 771px;
+}
+
+.contentHeaderTd {
+	font-size: 0px;
+}
+
+.contentTd {
+	vertical-align: top;
+	padding: 8px 8px 0px 8px;
+}
+
+.templateQuestionsTd {
+	text-align: center;
+	font-size: 11px;
+	vertical-align: bottom;
+	padding-bottom: 5px;
+	width: 755px;
+}
+
+/* index.jsp */
+.indexMainTable {
+	font-size: 0px;
+}
+
+.indexContainterTd {
+	font-size: 0px;
+}
+
+.errorsText {
+	color: red;
+	font-size: 12px;
+}
+
+/* SET 3.7 */
+.listTable {
+	border-collapse: collapse;
+	cellspacing: 0;
+	border: solid 1px;
+	font-size: 12px;
+	table-layout: auto;
+}
+
+.listTh {
+	background-color: #CCCCCC;
+	border: solid 1px;
+}
+
+.footer {
+	background-color: #84B2DE;
+	font-color: #000000;
+	color: #ffffff;
+}
+
+.barBackground {
+	background-color: #84B2DE;
+	height: 10px;
+	width: 771px;
+}
+
+.headerTitle {
+	float: right;
+	padding: 25px 30px;
+	padding: 22px 30px 21px 30px\9;
+	font-size: 30px;
+	color: #002072;
+}
+
+.header {
+	background-image: url("../images/nsb_header.gif");
+	height: 79px;
+	width: 771px;
+}
